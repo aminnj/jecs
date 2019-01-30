@@ -1,6 +1,6 @@
 #!/bin/bash
 
-path="/hadoop/cms/store/user/namin/QCD_Pt-15to7000_TuneCUETP8M1_Flat_13TeV_pythia8/crab_forJECsNoPU-v1/160611_112339/0000/"
+path="/hadoop/cms/store/user/namin/QCD_Pt-15to7000_TuneCP5_Flat2018_13TeV_pythia8/crab_forJECs-Autumn18-NoPU-v1/190129_212114/0000/"
 
 samples = [
 

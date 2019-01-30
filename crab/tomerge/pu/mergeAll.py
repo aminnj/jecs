@@ -1,10 +1,10 @@
 #!/bin/bash
 
-path="/hadoop/cms/store/user/namin/QCD_Pt-15to7000_TuneCP5_Flat2018_13TeV_pythia8/crab_forJECs-Autumn18-PUFlat0to70-v1/190129_212130/0000/"
+path="/hadoop/cms/store/user/namin/QCD_Pt-15to7000_TuneCP5_Flat2018_13TeV_pythia8/crab_forJECs-Autumn18-PU-v1/190129_212050/0000/"
 
 samples = [
 
-["JRA_PUFlat","JRA_*.root"],
+["JRA_PU","JRA_*.root"],
 
  ]
 

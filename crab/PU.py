@@ -2,7 +2,7 @@ from WMCore.Configuration import Configuration
 config = Configuration()
 
 config.section_("General")
-config.General.requestName = 'forJECsPU-v1'
+config.General.requestName = 'forJECs-Autumn18-PU-v1'
 config.General.transferOutputs = True
 config.General.transferLogs = True
 
@@ -11,10 +11,10 @@ config.JobType.pluginName = 'Analysis'
 config.JobType.psetName = '../run_JRA_cfg.py'
 
 config.section_("Data")
-config.Data.inputDataset = '/QCD_Pt-15to7000_TuneCUETP8M1_Flat_13TeV_pythia8/RunIISpring16FSPremix-ForSUSJECs_80X_mcRun2_asymptotic_v12-v1/AODSIM'
+config.Data.inputDataset = '/QCD_Pt-15to7000_TuneCP5_Flat2018_13TeV_pythia8/RunIIAutumn18DRPremix-102X_upgrade2018_realistic_v15_ext1-v1/AODSIM'
 config.Data.inputDBS = 'global'
 config.Data.splitting = 'FileBased'
-config.Data.unitsPerJob = 1
+config.Data.unitsPerJob = 2
 
 config.section_("Site")
 config.Site.storageSite = 'T2_US_UCSD'

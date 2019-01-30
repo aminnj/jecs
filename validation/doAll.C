@@ -20,7 +20,7 @@
     TString l2JECpfx = "";
     TString l3JECpfx = "";
 
-    TString era = "Spring16_25nsV3";
+    TString era = "Autumn18_V1";
 
     l1JECpfx = "../l2l3/"+era+"_L1FastJet";
     l2JECpfx = "../l2l3/"+era+"_L2Relative";
